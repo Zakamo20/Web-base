@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<prices>
+	<class type ="ABS" price="10" />
+	<class type ="PLA" price="23" />
+	<class type ="TPU" price="14" />
+	<class type ="TPE" price="13" />
+	<class type ="METAL" price="N/A" />
+	<class type ="WOOD" price="N/A" />
+</prices>

@@ -1,0 +1,84 @@
+﻿ 
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+.navbar-image {
+    height:167px;
+    margin:auto;
+}
+
+.jumbotron {
+    background-color: #C3ACA7;
+    height: Auto;
+}
+
+    .jumbotron h1 {
+        color: #5F1616;
+        font-size: 80px;
+    }
+  .Header {
+      font-size:40px;
+      font:bold;
+      
+  }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 24px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.list-group-item {
+    font-size: 20px;
+}
+
+.container-1 {
+    color: #FAF9F9;
+}
+
+#content2::before {
+    content: "\a";
+    white-space: pre;
+    margin-right:500px;
+}
+.table-1 {
+    font-size:20px;
+    margin-top:auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.table-2 {
+}
+.Main-image {
+    height: 200px;
+    border-block-color: #f8f8f8 ;
+    margin-bottom: 50px;
+    align-self:center;
+}
+
+.Supply {
+    height: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
