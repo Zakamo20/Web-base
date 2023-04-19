@@ -1,8 +1,8 @@
-﻿<%@ Page Title="info" Page Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="WebProject.Info"%>
+﻿<%@ Page Title="info" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="WebProject.WebForm4"%>
     <asp:content ID="Content1" ContentPlaceHolderID="Bar" runat="server">
         <div style="background: #C3ACA7 " class="jumbotron text-center">
-            <img src="/Pics/Banner Background.png" class=" navbar-image" style="float:left ; margin-left:50px" alt="Missing Img">
-            <img src="/Pics/Banner Background2.png" class=" navbar-image" style="float:right ; margin-right:50px" alt="Missing Img">
+            <img src="/Pics/Banner Background.png" class=" navbar-image" style="float:left ; margin-left:50px; margin-top:20px; height: 168px; width: 180px;" alt="Missing Img">
+            <img src="/Pics/Banner Background2.png" class=" navbar-image" style="float:right ; margin-right:50px; margin-top:20px; height: 168px; width: 226px;" alt="Missing Img">
             <h1 class="jumbotron h1">About Us</h1>
         </div>
     </asp:content>
@@ -17,7 +17,7 @@
             <input type="image" src="/Pics/3dDice.png" class="Main-image" alt="Decor">
             <h4>Custom orders</h4>
             <p>Have something you want to print but don't see on our store?  Give us your STL files and we can print them for you.</p>
-            <a class="nav-link" href="Price Gauge.html">Try our Price Gauge</a>
+            <a class="nav-link" href="Pricer.aspx">Try our Price Gauge</a>
             <img src="/Pics/Custom Orders.png" class="Main-image" alt=" Custom Order" />
         </div>
         <div class="card-md-4">

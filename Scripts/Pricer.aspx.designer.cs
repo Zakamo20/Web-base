@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Webproject
+namespace WebProject
 {
 
 
-    public partial class Pricer
+    public partial class WebForm3
     {
     }
 }

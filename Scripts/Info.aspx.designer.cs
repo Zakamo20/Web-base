@@ -11,7 +11,7 @@ namespace WebProject
 {
 
 
-    public partial class Info
+    public partial class WebForm4
     {
     }
 }

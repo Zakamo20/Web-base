@@ -11,7 +11,7 @@ namespace WebProject
 {
 
 
-    public partial class Shop
+    public partial class WebForm2
     {
 
         /// <summary>

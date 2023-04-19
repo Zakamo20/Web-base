@@ -7,14 +7,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
-
-    <asp:PlaceHolder runat="server">
+     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form runat="server">
@@ -36,7 +35,7 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+        
         <header>
            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="Home.aspx">Zach's 3d Prints</a>
@@ -46,10 +45,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="prog4.aspx">Shop</a>
+                        <a class="nav-link" href="Shop.aspx">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Info%20page.aspx">>About</a>
+                        <a class="nav-link" href="Info.aspx">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -66,12 +65,13 @@
             <asp:ContentPlaceHolder ID="Main" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <footer class="bg-dark py-3">
+        <footer class="bg-dark py-3 fixed-bottom">
         <div class="container-1">
             <span id="content1">For questions reguarding custom orders</span><span id="content2">Call at: 202 555 0180 </span><span">Or email at: zach3dprints@gmail.com.</span>
         </div>
     </footer>
         <asp:ContentPlaceHolder ID="scripts" runat="server"></asp:ContentPlaceHolder>
+     
     </form>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>

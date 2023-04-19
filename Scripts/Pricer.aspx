@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Home" Page Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="https://localhost:44339/Scripts/Pricer.aspx.cs"  Inherits="Webproject.Pricer"%>
+﻿<%@ Page Title="Home" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="https://localhost:44339/Scripts/Pricer.aspx.cs"  Inherits="WebProject.WebForm3"%>
 <asp:content ID="Content1" ContentPlaceHolderID="Bar" runat="server">
         <div style="background: #C3ACA7" class="jumbotron text-center">
-            <img src="/Pics/Banner Background.png" class=" navbar-image" style="float:left ; margin-left:50px" alt="Missing Img">
-            <img src="/Pics/Banner Background2.png" class=" navbar-image" style="float:right ; margin-right:50px" alt="Missing Img">
+            <img src="/Pics/Banner Background.png" class=" navbar-image" style="float:left ; margin-left:50px; margin-top:20px; height: 168px; width: 180px;" alt="Missing Img">
+            <img src="/Pics/Banner Background2.png" class=" navbar-image" style="float:right ; margin-right:50px;margin-top:20px; height: 168px; width: 226px;" alt="Missing Img">
             <h1 class="jumbotron h1">Price Gauge</h1>
         </div>
 </asp:content>
@@ -32,7 +32,6 @@
                 <br><br />
                 <label for="total_price_output">Total Price ($):</label>
                 <output type="text" id="total_price_output" name="total_price_output" readonly(=)></output>
-
             </div>
         </div>
    </asp:content>
@@ -40,5 +39,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</asp:content>>
+</asp:content>
 
