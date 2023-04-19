@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="info" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Info.aspx.cs" Inherits="WebProject.WebForm4"%>
     <asp:content ID="Content1" ContentPlaceHolderID="Bar" runat="server">
         <div style="background: #C3ACA7 " class="jumbotron text-center">
+                <style>
+		body {
+			margin-top: 250px;
+		}
+	</style>
             <img src="/Pics/Banner Background.png" class=" navbar-image" style="float:left ; margin-left:50px; margin-top:20px; height: 168px; width: 180px;" alt="Missing Img">
             <img src="/Pics/Banner Background2.png" class=" navbar-image" style="float:right ; margin-right:50px; margin-top:20px; height: 168px; width: 226px;" alt="Missing Img">
             <h1 class="jumbotron h1">About Us</h1>

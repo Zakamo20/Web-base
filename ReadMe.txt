@@ -66,4 +66,4 @@ Set nav-bar to exsist above the page
 
 Temporarily fixed (and then broke again) the Pricer page (no longer crashes but also no longer works)
 
-New bug where portions of the page are cut off
+New bug where portions of the page are cut off (temp fix by adding a margin at the top)
