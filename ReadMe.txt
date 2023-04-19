@@ -51,3 +51,19 @@ Math note, Lenght should be put in meters, but price under Price_output is for 1
 slight but where Price_output doesn't display untill submit (or enter) is hit with all inputs addes
 
 Wood and Metal Values are set to N/A for Price (this is intentional) Output is NaN
+
+
+Project 4
+Moved all pages to ASP.net
+
+Master page created and at least partially functional
+
+Sql database made
+
+New page with drop down created
+
+Set nav-bar to exsist above the page
+
+Temporarily fixed (and then broke again) the Pricer page (no longer crashes but also no longer works)
+
+New bug where portions of the page are cut off

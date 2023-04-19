@@ -17,6 +17,7 @@ body {
 .jumbotron {
     background-color: #C3ACA7;
     height: Auto;
+    background-size: cover;
 }
 
     .jumbotron h1 {
